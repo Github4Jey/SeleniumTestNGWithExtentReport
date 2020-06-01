@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel = "classes"  thread-count="2">
+
+    <listeners>		
+        <listener class-name="utilities.TestListener"/>
+       
+    </listeners>
+    
+    <test verbose="10" name="Check_Parl" preserve-order="true">
+    <classes>
+    
+   	 <class name="tests.SecondSampleTSwithPageObjAndActions" />
+   	  
+   	 <class name="tests.FirstSampleTSwithPageObjAndActions" />
+   	  
+   	 <class name="tests.ThirdSampleTSwithPageObjAndActions" />
+   	  
+   	  <class name="tests.FourthSampleTSwithPageObjAndActions" />
+   	 
+   	 
+		    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

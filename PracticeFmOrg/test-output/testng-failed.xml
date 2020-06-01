@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="Check_Parl(failed)">
+    <classes>
+      <class name="tests.FirstSampleTSwithPageObjAndActions">
+        <methods>
+          <include name="LoginTextBoxDisplayValidationwithHomePageFirst"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.FirstSampleTSwithPageObjAndActions -->
+      <class name="tests.ThirdSampleTSwithPageObjAndActions">
+        <methods>
+          <include name="getResult"/>
+          <include name="LoginTextBoxDisplayValidationwithHomePageThird"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.ThirdSampleTSwithPageObjAndActions -->
+    </classes>
+  </test> <!-- Check_Parl(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

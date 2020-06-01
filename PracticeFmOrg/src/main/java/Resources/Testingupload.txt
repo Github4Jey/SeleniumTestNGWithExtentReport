@@ -1,0 +1,5 @@
+testing upload check done
+
+ControlFocus("Open","","Edit1" ) //Sets input focus to a given control on a window.
+ControlSetText("Open","","Edit1","C:\Jey\Automation\EMTestAutomation\Resources\Testingupload.txt")
+ControlClick("Open","","Button1" ) //Sends a mouse click command to a given control.

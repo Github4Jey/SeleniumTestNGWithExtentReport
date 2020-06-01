@@ -1,0 +1,1 @@
+java -jar C:\Users\1554153\Desktop\knwmanger\ttmmanager\target\ttmmanager-0.0.1-SNAPSHOT-jar-with-dependencies.jar testng.xml
