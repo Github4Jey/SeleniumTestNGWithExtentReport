@@ -2,29 +2,20 @@ package tests;
 
 
 
-import java.io.IOException;
 import java.util.Map;
+
 import org.apache.commons.lang3.exception.ExceptionUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
+
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+
 import coreFramework.FrameworkBase;
-import coreFramework.Globals;
 import pagesObjectsAndActions.HomePage;
 import pagesObjectsAndActions.LoginPage;
-import utilities.ExcelUtility;
-import utilities.ExtentTestManager;
-import utilities.UtilityClass;
 
 
 public class FirstSampleTSwithPageObjAndActions extends FrameworkBase{

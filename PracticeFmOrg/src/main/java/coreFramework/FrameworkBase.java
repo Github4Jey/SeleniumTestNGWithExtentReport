@@ -23,6 +23,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentTest;
@@ -78,7 +79,7 @@ public class FrameworkBase {
 	
 	@BeforeMethod
 	@Parameters({"url","browserName"})  
-    public void launchBrowser(Method testMethod, String url, String browserName) throws Exception {
+    public void launchBrowser(Method testMethod, @Optional("http://www.google.com") String url, @Optional("firefox")  String browserName) throws Exception {
 	description = getSaltString();
 	initalize(url,browserName);
 	//	Map<String,String> map;
