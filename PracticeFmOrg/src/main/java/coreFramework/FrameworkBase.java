@@ -16,6 +16,7 @@ import org.apache.tools.ant.taskdefs.Zip;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
@@ -144,7 +145,7 @@ public class FrameworkBase {
 		switch (browserName) {
 		case "chrome":
 		//	System.setProperty("webdriver.chrome.driver", Globals.chromeDriverPath);
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			//options.addArguments("--headless");
 			options.addArguments("--no-sandbox");
@@ -154,22 +155,30 @@ public class FrameworkBase {
 			options.addArguments("--enable-automation");
 			options.addArguments("test-type=browser");
 			options.addArguments("disable-infobars");
-			driver = new ChromeDriver(options);
+			WebDriverManager.chromedriver().setup();
+			 driver = new ChromeDriver(options);
 			System.out.println(Globals.chromeDriverPath);
 			// driver = new ChromeDriver();
-			System.out.println("After driver open");
+			System.out.println("Chrome Browser Opened");
 			driver.get(url);
 			driverProperties();
 			break;
 
-		case "IE":
+		case "edge":
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			System.out.println("Edge Browser Opened");
+			driver.get(url);
+			driverProperties();
 			break;
 		case "firefox":
 		//	System.setProperty("webdriver.gecko.driver", Globals.ffDriverPath);
-			WebDriverManager.firefoxdriver().setup();
 			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			capabilities.setCapability("marionette", true);
-			driver = new FirefoxDriver(capabilities); 
+			WebDriverManager.firefoxdriver().setup();
+			
+			 driver = new FirefoxDriver(capabilities); 
+			 System.out.println("Firefox Browser Opened");
 
 			driver.get(url);
 			driverProperties();
