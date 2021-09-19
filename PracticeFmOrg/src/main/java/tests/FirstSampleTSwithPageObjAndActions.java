@@ -40,6 +40,7 @@ public class FirstSampleTSwithPageObjAndActions extends FrameworkBase{
 			
 			String name = new Object(){}.getClass().getEnclosingMethod().getName();	
 			test.log(Status.INFO, "before excel read"+description);
+			System.out.println(driver.getCurrentUrl());
 			
 			//String name = new Object(){}.getClass().getEnclosingMethod().getName();	
 			map= testData.readExcel("FirstTCdescription");

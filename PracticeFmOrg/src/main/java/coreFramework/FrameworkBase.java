@@ -47,7 +47,7 @@ public class FrameworkBase {
 
 
 	public WebDriver driver = null;
-	public String browserName = null;
+	//public String browserName = null;
 	public String url = null;
 	public ExcelUtility testData = new ExcelUtility(Globals.excelFilePath, "Sheet1", "xls");
 	public ExtentTest test;
@@ -99,7 +99,7 @@ public class FrameworkBase {
     {
 //	test = ExtentTest test;
 		String methodname = testMethod.getName();
-		String TCDescription = methodname+" description "+browserName;
+		String TCDescription = methodname+" description ";
 		
 		
         if(result.getStatus() == ITestResult.FAILURE)
