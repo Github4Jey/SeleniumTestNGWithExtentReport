@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="classes" name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Automation Suite]" parallel="classes">
   <listeners>
     <listener class-name="utilities.TestListener"/>
   </listeners>
-  <test thread-count="2" parallel="classes" name="Check_Parl(failed)">
+  <test thread-count="2" name="Check_Parl(failed)" parallel="classes">
     <classes>
       <class name="tests.FirstSampleTSwithPageObjAndActions">
         <methods>
@@ -15,11 +15,25 @@
       </class> <!-- tests.FirstSampleTSwithPageObjAndActions -->
       <class name="tests.ThirdSampleTSwithPageObjAndActions">
         <methods>
-          <include name="getResult"/>
           <include name="LoginTextBoxDisplayValidationwithHomePageThird"/>
+          <include name="getResult"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- tests.ThirdSampleTSwithPageObjAndActions -->
+      <class name="tests.FourthSampleTSwithPageObjAndActions">
+        <methods>
+          <include name="PwdTextBoxDisplayValidationwithHomePageFourth"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.FourthSampleTSwithPageObjAndActions -->
+      <class name="tests.SecondSampleTSwithPageObjAndActions">
+        <methods>
+          <include name="PwdTextBoxDisplayValidationwithHomePageSecond"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.SecondSampleTSwithPageObjAndActions -->
     </classes>
   </test> <!-- Check_Parl(failed) -->
 </suite> <!-- Failed suite [Automation Suite] -->

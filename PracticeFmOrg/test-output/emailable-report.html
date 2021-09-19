@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -7,25 +7,25 @@
 </head>
 <body>
 <table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Automation Suite</th></tr>
-<tr><td><a href="#t0">Check_Parl</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">38,827</td><td></td><td></td></tr>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Automation Suite</th></tr>
+<tr><td><a href="#t0">Check_Parl</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">29,285</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Check_Parl &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.FirstSampleTSwithPageObjAndActions</td><td><a href="#m0">LoginTextBoxDisplayValidationwithHomePageFirst</a></td><td rowspan="1">1590934250975</td><td rowspan="1">9411</td></tr><tr class="failedodd"><td rowspan="1">tests.ThirdSampleTSwithPageObjAndActions</td><td><a href="#m1">LoginTextBoxDisplayValidationwithHomePageThird</a></td><td rowspan="1">1590934270154</td><td rowspan="1">9284</td></tr><tr><th colspan="4">Check_Parl &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.FourthSampleTSwithPageObjAndActions</td><td><a href="#m2">PwdTextBoxDisplayValidationwithHomePageFourth</a></td><td rowspan="1">1590934270052</td><td rowspan="1">9408</td></tr><tr class="passedodd"><td rowspan="1">tests.SecondSampleTSwithPageObjAndActions</td><td><a href="#m3">PwdTextBoxDisplayValidationwithHomePageSecond</a></td><td rowspan="1">1590934250973</td><td rowspan="1">9416</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Check_Parl &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.FirstSampleTSwithPageObjAndActions</td><td><a href="#m0">LoginTextBoxDisplayValidationwithHomePageFirst</a></td><td rowspan="1">1632017527143</td><td rowspan="1">6679</td></tr><tr class="failedodd"><td rowspan="1">tests.FourthSampleTSwithPageObjAndActions</td><td><a href="#m1">PwdTextBoxDisplayValidationwithHomePageFourth</a></td><td rowspan="1">1632017540112</td><td rowspan="1">288</td></tr><tr class="failedeven"><td rowspan="1">tests.SecondSampleTSwithPageObjAndActions</td><td><a href="#m2">PwdTextBoxDisplayValidationwithHomePageSecond</a></td><td rowspan="1">1632017522703</td><td rowspan="1">6787</td></tr><tr class="failedodd"><td rowspan="1">tests.ThirdSampleTSwithPageObjAndActions</td><td><a href="#m3">LoginTextBoxDisplayValidationwithHomePageThird</a></td><td rowspan="1">1632017536070</td><td rowspan="1">270</td></tr></tbody>
 </table>
 <h2>Check_Parl</h2><h3 id="m0">tests.FirstSampleTSwithPageObjAndActions#LoginTextBoxDisplayValidationwithHomePageFirst</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;user_email1&apos;]&quot;}
-  (Session info: chrome=83.0.4103.61)
+  (Session info: chrome=93.0.4577.82)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-46EEHEL&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;DESKTOP-46EEHEL&apos;, ip: &apos;192.168.147.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\cjeya\AppData\Local\Temp\scoped_dir1984_1000460992}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63059}, acceptInsecureCerts=false, browserVersion=83.0.4103.61, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: 447939276f6b95505b0dbb1bfdaf1dfd
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}), userDataDir=C:\Users\cjeya\AppData\Local\Temp\scoped_dir22264_1033530977}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56351}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=93.0.4577.82, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 8281a191f3f999fdf66248932f081190
 *** Element info: {Using=xpath, value=//input[@id=&apos;user_email1&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
@@ -38,52 +38,118 @@ Session ID: 447939276f6b95505b0dbb1bfdaf1dfd
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
 	at pagesObjectsAndActions.LoginPage.LoginTBDisplay(LoginPage.java:33)
 	at tests.FirstSampleTSwithPageObjAndActions.LoginTextBoxDisplayValidationwithHomePageFirst(FirstSampleTSwithPageObjAndActions.java:67)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 
-	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:99)
 	at tests.FirstSampleTSwithPageObjAndActions.LoginTextBoxDisplayValidationwithHomePageFirst(FirstSampleTSwithPageObjAndActions.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.ThirdSampleTSwithPageObjAndActions#LoginTextBoxDisplayValidationwithHomePageThird</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;user_email1&apos;]&quot;}
-  (Session info: chrome=83.0.4103.61)
+<h3 id="m1">tests.FourthSampleTSwithPageObjAndActions#PwdTextBoxDisplayValidationwithHomePageFourth</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Apply as a Freelancer&quot;}
+  (Session info: chrome=93.0.4577.82)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-46EEHEL&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;DESKTOP-46EEHEL&apos;, ip: &apos;192.168.147.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\cjeya\AppData\Local\Temp\scoped_dir17864_1781205832}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63207}, acceptInsecureCerts=false, browserVersion=83.0.4103.61, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: b27e014a55957c1ac14a23c5de861e3a
-*** Element info: {Using=xpath, value=//input[@id=&apos;user_email1&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}), userDataDir=C:\Users\cjeya\AppData\Local\Temp\scoped_dir4556_1712435433}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50562}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=93.0.4577.82, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: b72242f1a2616711602f8517825b8268
+*** Element info: {Using=link text, value=Apply as a Freelancer}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at pagesObjectsAndActions.HomePage.LinkdisplayCheck(HomePage.java:37)
+	at tests.FourthSampleTSwithPageObjAndActions.PwdTextBoxDisplayValidationwithHomePageFourth(FourthSampleTSwithPageObjAndActions.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+	at org.testng.Assert.fail(Assert.java:99)
+	at tests.FourthSampleTSwithPageObjAndActions.PwdTextBoxDisplayValidationwithHomePageFourth(FourthSampleTSwithPageObjAndActions.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.SecondSampleTSwithPageObjAndActions#PwdTextBoxDisplayValidationwithHomePageSecond</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;user_password&apos;]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-46EEHEL&apos;, ip: &apos;192.168.147.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}), userDataDir=C:\Users\cjeya\AppData\Local\Temp\scoped_dir29064_1957684343}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56352}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=93.0.4577.82, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: e0f86065f334ce458876940a686d1061
+*** Element info: {Using=xpath, value=//input[@id=&apos;user_password&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
@@ -96,40 +162,104 @@ Session ID: b27e014a55957c1ac14a23c5de861e3a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
-	at pagesObjectsAndActions.LoginPage.LoginTBDisplay(LoginPage.java:33)
-	at tests.ThirdSampleTSwithPageObjAndActions.LoginTextBoxDisplayValidationwithHomePageThird(ThirdSampleTSwithPageObjAndActions.java:67)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at pagesObjectsAndActions.LoginPage.PwdTBDisplay(LoginPage.java:40)
+	at tests.SecondSampleTSwithPageObjAndActions.PwdTextBoxDisplayValidationwithHomePageSecond(SecondSampleTSwithPageObjAndActions.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 
-	at org.testng.Assert.fail(Assert.java:96)
-	at tests.ThirdSampleTSwithPageObjAndActions.LoginTextBoxDisplayValidationwithHomePageThird(ThirdSampleTSwithPageObjAndActions.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
+	at org.testng.Assert.fail(Assert.java:99)
+	at tests.SecondSampleTSwithPageObjAndActions.PwdTextBoxDisplayValidationwithHomePageSecond(SecondSampleTSwithPageObjAndActions.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.FourthSampleTSwithPageObjAndActions#PwdTextBoxDisplayValidationwithHomePageFourth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.SecondSampleTSwithPageObjAndActions#PwdTextBoxDisplayValidationwithHomePageSecond</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.ThirdSampleTSwithPageObjAndActions#LoginTextBoxDisplayValidationwithHomePageThird</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Apply as a Freelancer&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-46EEHEL&apos;, ip: &apos;192.168.147.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}), userDataDir=C:\Users\cjeya\AppData\Local\Temp\scoped_dir23144_1104183421}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57840}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=93.0.4577.82, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3736fab7f122b33992fdd36092ba4b35
+*** Element info: {Using=link text, value=Apply as a Freelancer}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at pagesObjectsAndActions.HomePage.LinkdisplayCheck(HomePage.java:37)
+	at tests.ThirdSampleTSwithPageObjAndActions.LoginTextBoxDisplayValidationwithHomePageThird(ThirdSampleTSwithPageObjAndActions.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+	at org.testng.Assert.fail(Assert.java:99)
+	at tests.ThirdSampleTSwithPageObjAndActions.LoginTextBoxDisplayValidationwithHomePageThird(ThirdSampleTSwithPageObjAndActions.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
