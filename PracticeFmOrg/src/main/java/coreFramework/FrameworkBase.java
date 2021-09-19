@@ -77,9 +77,10 @@ public class FrameworkBase {
     }
 	
 	@BeforeMethod
-    public void launchBrowser(Method testMethod) throws Exception {
+	@Parameters({"url","browserName"})  
+    public void launchBrowser(Method testMethod, String url, String browserName) throws Exception {
 	description = getSaltString();
-	initalize();
+	initalize(url,browserName);
 	//	Map<String,String> map;
 		String methodname = testMethod.getName();
 		System.out.println(methodname);
@@ -125,8 +126,8 @@ public class FrameworkBase {
     }
 	
 	
-
-	public void initalize() throws Exception {
+	
+	public void initalize(String url, String browserName) throws Exception {
 		
 
 		Properties prop = new Properties();
@@ -134,9 +135,9 @@ public class FrameworkBase {
 
 		prop.load(fileData);
 		// Parameters from Properties File
-		browserName = prop.getProperty("browserName");
-		String newurl = prop.getProperty("url");
-		url = newurl;
+		//browserName = prop.getProperty("browserName");
+		//String newurl = prop.getProperty("url");
+	//	url = newurl;
 
 		// Load Driver with Selected Browser
 		switch (browserName) {
